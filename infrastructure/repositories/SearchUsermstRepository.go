@@ -14,8 +14,8 @@ func (searchall *UsermstRepository) AllSearchUsermst() string {
 }
 
 // usermstのユーザーコード検索処理
-func (searchbyusercd *UsermstRepository) SearchByUsercd() string {
-	return "SearchByUsercd"
+func (searchbyusercd *UsermstRepository) SearchByUsercd(userced string) string {
+	return userced
 }
 
 func (countbyusercd *UsermstRepository) CountByUsercd(usercd string) int {

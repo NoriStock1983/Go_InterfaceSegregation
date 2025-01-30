@@ -18,5 +18,5 @@ func (s *SearchUsermstController) SarchAllUsermst() string {
 }
 
 func (s *SearchUsermstController) SearchByUsercd() string {
-	return "SarchByUsercd"
+	return s.SearchUsermst.SearchUsercd("usercd")
 }

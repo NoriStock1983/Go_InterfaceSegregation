@@ -15,4 +15,5 @@ func main() {
 	c := controller.NewUsermstController(usermstusecase)
 
 	fmt.Println(c.SarchAllUsermst())
+	fmt.Println(c.SearchByUsercd())
 }

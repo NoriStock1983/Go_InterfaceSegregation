@@ -2,6 +2,7 @@ package repositories
 
 type ISearchUsermstRepository interface {
 	AllSearchUsermst() string
+	SearchByUsercd(usercd string) string
 }
 
 type IInsertUsermstRepository interface {
